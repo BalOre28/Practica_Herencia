@@ -9,16 +9,16 @@ package empleado.practica;
  * @author Balto
  */
 public abstract class EmpleadoPractica {
-public String name;
-public int Id;
+    protected String name;
+    protected int Id;
 
     public EmpleadoPractica(String name, int Id) {
         this.name = name;
         this.Id = Id;
     }
-    
+
     public abstract double calcularSalario();
-    
+
     public abstract double calcularBonificacion();
 
 }
